@@ -24,28 +24,28 @@ pause = "pause"
 
 print(f"{colorChange('white')}{prev:<35}")
 print(f"{colorChange('green')}{next:^15}")
-print(f"{colorChange('purple')}{pause:>19}")
-
-
+print(f"{colorChange('purple')}{pause:>15}")
 print()
 print()
 text = "WELCOME TO"
-print(f"{colorChange('white')}{text:^35}")
+print(f"{colorChange('white')}{text:^25}")
 text = "--  ARMBOOK  --"
-print(f"{colorChange('blue')}{text:^35}")
+print(f"{colorChange('blue')}{text:^44}")
 text = "Definitely not a rip off"
 print(f"{colorChange('yellow')}{text:>35}")
 text = "a certain other social"
 print(f"{colorChange('yellow')}{text:>35}")
 text = "networking site"
-print(f"{colorChange('yellow')}{text:>35}")
+print(f"{colorChange('yellow')}{text:>39}")
 text = "Honest."
-print(f"{colorChange('red')}{text:^35}")
+print(f"{colorChange('red')}{text:^40}")
 text = "Username: "
-username = input(f"{colorChange('white')}{text:^35}")
+username = input(f"{colorChange('white')}{text:^40}")
 text = "Password: "
-username = input(f"{colorChange('white')}{text:^35}")
-
+password = input(f"{colorChange('white')}{text:^40}")
+print()
+username = "username"
+password = "password"
 
 
 
